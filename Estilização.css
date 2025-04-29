@@ -340,3 +340,45 @@ input[type=submit] {
     margin-top: 1rem;
     color: var(--border);
 }
+#controle-fonte{
+    position: fixed;
+    top: 68px;
+    right: 20px;
+    background-color: var(--branco);
+    border: var(--border);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+} 
+
+#controle-fonte button{
+    background-color:var(--fundo);
+    color: var(--branco);
+    border: none;
+    margin: 2px;
+    padding: 8px 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#controle-fonte button:hover{
+    background-color: var(--amarelo);
+}
+
+.modo-alto-contraste {
+    background-color: black;
+    color: yellow;
+    border: 2px solid white;
+}
+    
+.modo-alto-contraste a {
+    color: yellow;
+}
+    
+.modo-alto-contraste button {
+    background-color: yellow;
+    color: black;
+    border: 2px solid white;
+}      
